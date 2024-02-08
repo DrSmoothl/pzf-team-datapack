@@ -1,0 +1,13 @@
+team add TOG
+team add DPI
+team add XGC
+team add HCN
+team add ELS
+team add LAS
+team add CTEC
+team add UBB
+team add BCR
+team add TUT
+team add GRU
+team add Yun_Xiu
+team add ACG
