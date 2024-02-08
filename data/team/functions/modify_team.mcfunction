@@ -11,3 +11,4 @@ team modify BCR prefix {"text": "[BCR]","color": "gold"}
 team modify UBB prefix {"text": "[骗子吗]","color": "gold"}
 team modify TOG prefix {"text": "[TOG]"}
 team modify DPI prefix {"text": "[鼠标灵敏度]","color": "light_purple"}
+team modify BOF prefix {"text": "[筑缘]","color": "aqua"}
