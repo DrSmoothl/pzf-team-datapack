@@ -1,9 +1,10 @@
 scoreboard players add @a team-time 1
 scoreboard players add main_tick team-time 1
 
-execute if score main_tick team-time matches 20 run function team:tp_no_team_player
-
+execute if score main_tick team-time matches 200 run function team:tp_no_team_player
+execute if score main_tick team-time matches 201 run scoreboard players reset main_tick team-time
 scoreboard players add @a team 0
+
 tag @a[scores={team=0},tag=!un_team] add un_team
 tag @a[scores={team=1..},tag=un_team] remove un_team
 
