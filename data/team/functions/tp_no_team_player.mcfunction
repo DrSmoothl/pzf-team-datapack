@@ -4,6 +4,6 @@
 
 #将离出生点中心60米外的未选队玩家tp回出生点
 execute at @e[type=marker,tag=spawn_area_center] run tp @a[tag=un_team,distance=60..] ~ ~ ~
-execute at @e[type=marker,tag=spawn_area_center] run tellraw @a[tag=un_team,distance=60..] {"text":"请选择队伍后再离开初始大厅！","bold":true,"color":"red"}
+execute at @e[type=marker,tag=spawn_area_center] run tellraw @a[tag=un_team,distance=60..] [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text":" 请选择队伍后再离开初始大厅！","bold":true,"color":"red"}]
 
 #execute as @e[type=armor_stand,tag=team_check] at @s run execute as @e[]
