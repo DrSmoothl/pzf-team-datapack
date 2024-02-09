@@ -17,17 +17,60 @@ scoreboard players enable @a team
 
 
 execute as @a[scores={team=10},team=!ACG] at @s run team join ACG
+execute as @a[scores={team=10},team=ACG] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入ACG！","color": "green"}]
+execute as @a[scores={team=10},team=ACG] at @s run scoreboard players set @s team 666
+
 execute as @a[scores={team=11},team=!BCR] at @s run team join BCR
+execute as @a[scores={team=11},team=BCR] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入BCR！","color": "green"}]
+execute as @a[scores={team=11},team=BCR] at @s run scoreboard players set @s team 666
+
+
 execute as @a[scores={team=12},team=!CTEC] at @s run team join CTEC
+execute as @a[scores={team=12},team=CTEC] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入CTEC！","color": "green"}]
+execute as @a[scores={team=12},team=CTEC] at @s run scoreboard players set @s team 666
+
 execute as @a[scores={team=13},team=!DPI] at @s run team join DPI
+execute as @a[scores={team=13},team=DPI] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入DPI！","color": "green"}]
+execute as @a[scores={team=13},team=DPI] at @s run scoreboard players set @s team 666
+
 execute as @a[scores={team=14},team=!ELS] at @s run team join ELS
+execute as @a[scores={team=14},team=ELS] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入ELS！","color": "green"}]
+execute as @a[scores={team=14},team=ELS] at @s run scoreboard players set @s team 666
+
 execute as @a[scores={team=15},team=!GRU] at @s run team join GRU
+execute as @a[scores={team=15},team=GRU] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入GRU！","color": "green"}]
+execute as @a[scores={team=15},team=GRU] at @s run scoreboard players set @s team 666
+
 execute as @a[scores={team=16},team=!HCN] at @s run team join HCN
+execute as @a[scores={team=16},team=HCN] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入HCN！","color": "green"}]
+execute as @a[scores={team=16},team=HCN] at @s run scoreboard players set @s team 666
+
 execute as @a[scores={team=17},team=!LAS] at @s run team join LAS
+execute as @a[scores={team=17},team=LAS] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入LAS！","color": "green"}]
+execute as @a[scores={team=17},team=LAS] at @s run scoreboard players set @s team 666
+
 execute as @a[scores={team=18},team=!TOG] at @s run team join TOG
+execute as @a[scores={team=18},team=TOG] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入TOG！","color": "green"}]
+execute as @a[scores={team=18},team=TOG] at @s run scoreboard players set @s team 666
+
 execute as @a[scores={team=19},team=!TUT] at @s run team join TUT
+execute as @a[scores={team=19},team=TUT] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入TUT！","color": "green"}]
+execute as @a[scores={team=19},team=TUT] at @s run scoreboard players set @s team 666
+
 execute as @a[scores={team=20},team=!UBB] at @s run team join UBB
+execute as @a[scores={team=20},team=UBB] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入UBB！","color": "green"}]
+execute as @a[scores={team=20},team=UBB] at @s run scoreboard players set @s team 666
+
 execute as @a[scores={team=21},team=!XGC] at @s run team join XGC
+execute as @a[scores={team=21},team=XGC] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入XGC！","color": "green"}]
+execute as @a[scores={team=21},team=XGC] at @s run scoreboard players set @s team 666
+
 execute as @a[scores={team=22},team=!Yun_Xiu] at @s run team join Yun_Xiu
+execute as @a[scores={team=22},team=Yun_Xiu] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入Yun_Xiu！","color": "green"}]
+execute as @a[scores={team=22},team=Yun_Xiu] at @s run scoreboard players set @s team 666
+
 execute as @a[scores={team=23},team=!BOF] at @s run team join BOF
+execute as @a[scores={team=23},team=BOF] at @s run tellraw @s [{"text": "[","color": "aqua"},{"text": "TEAMS","color": "gold"},{"text": "]","color": "aqua"},{"text": " 你已成功加入BOF！","color": "green"}]
+execute as @a[scores={team=23},team=BOF] at @s run scoreboard players set @s team 666
+
 
